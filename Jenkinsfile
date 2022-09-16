@@ -5,7 +5,9 @@ pipeline {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
-                cat /etc/os-release
+                sh 'cat /etc/os-release'
+                sh 'hostname'
+                sh 'date'
             }
         }
     }
